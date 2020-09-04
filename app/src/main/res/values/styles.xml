@@ -1,0 +1,143 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/notification_orange</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+
+
+
+    <style name="TextInputEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/effra_std_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:background">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="boxCornerRadiusTopStart">@dimen/dimen4dp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/dimen4dp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/dimen4dp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/dimen4dp</item>
+        <item name="android:textSize">@dimen/text_size_xxnormal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">4dp</item>
+        <!--        <item name="cardUseCompatPadding">true</item>-->
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <style name="TxtDescription" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/effra_std_regular</item>
+        <item name="android:textSize">@dimen/text_size_xnormal</item>
+        <item name="android:textColor">@color/text_color_black</item>
+    </style>
+
+    <style name="TxtNormal" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/effra_std_regular</item>
+        <item name="android:textSize">@dimen/text_size_xxnormal</item>
+        <item name="android:textColor">@color/text_color_black</item>
+    </style>
+
+    <style name="TxtHead" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/effra_std_bold</item>
+        <item name="android:textSize">@dimen/text_size_header</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TxtBoldSmall" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/effra_std_regular</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TxtSmall" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/effra_std_regular</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/text_color_black</item>
+    </style>
+
+    <style name="hintLable" parent="TextAppearance.Design.Hint">
+        <item name="android:fontFamily">@font/effra_std_regular</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SubmitButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/effra_std_regular</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_size_xxnormal</item>
+        <item name="android:paddingBottom">@dimen/dimen12dp</item>
+        <item name="android:paddingTop">@dimen/dimen12dp</item>
+        <item name="android:layout_marginRight">@dimen/margin_padding_normal</item>
+        <item name="android:layout_marginLeft">@dimen/margin_padding_normal</item>
+        <item name="android:layout_marginStart">@dimen/margin_padding_normal</item>
+        <item name="android:layout_marginEnd">@dimen/margin_padding_normal</item>
+    </style>
+
+    <style name="NextButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/effra_std_regular</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:text">@string/next</item>
+        <item name="android:textSize">@dimen/text_size_xxnormal</item>
+        <item name="android:paddingBottom">@dimen/dimen8dp</item>
+        <item name="android:paddingTop">@dimen/dimen8dp</item>
+        <item name="android:layout_marginRight">@dimen/margin_padding_normal</item>
+        <item name="android:layout_marginLeft">@dimen/margin_padding_normal</item>
+        <item name="android:layout_marginStart">@dimen/margin_padding_normal</item>
+        <item name="android:layout_marginEnd">@dimen/margin_padding_normal</item>
+    </style>
+
+    <style name="SmallButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/effra_std_regular</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginRight">@dimen/margin_padding_eight</item>
+        <item name="android:layout_marginLeft">@dimen/margin_padding_eight</item>
+        <item name="android:layout_marginStart">@dimen/margin_padding_eight</item>
+        <item name="android:layout_marginEnd">@dimen/margin_padding_eight</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+
+
+    <style name="TabView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:drawablePadding">@dimen/dimen8dp</item>
+        <item name="android:layout_marginTop">@dimen/dimen8dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="NavDrawerTextStyle" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textSize">@dimen/text_size_xxnormal</item>
+        <item name="android:fontFamily">@font/effra_std_regular</item>
+    </style>
+
+</resources>
